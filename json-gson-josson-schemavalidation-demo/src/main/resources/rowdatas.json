@@ -1,0 +1,101 @@
+{
+	"source": "IN",
+	"type": "PRD",
+	"name": "ABC",
+	"active": false,
+	"identities": [
+		{
+			"id": "11",
+			"type": "passport",
+			"number": "pass1"
+		}, {
+			"id": "12",
+			"type": "cin",
+			"number": "123"
+		}, {
+			"id": "13",
+			"type": "drive-licence",
+			"number": "drive-123"
+		}
+	]
+} {
+	"source": "IN",
+	"type": "COB",
+	"name": "XYZ",
+	"active": false,
+	"identities": [
+		{
+			"id": "11",
+			"type": "passport",
+			"number": "pass1"
+		}, {
+			"id": "12",
+			"type": "cin",
+			"number": "123"
+		}, {
+			"id": "13",
+			"type": "drive-licence",
+			"number": "drive-123"
+		}
+	]
+} {
+	"source": "PRo",
+	"type": "RPT",
+	"name": "TEST",
+	"active": false,
+	"identities": [
+		{
+			"id": "11",
+			"type": "passport",
+			"number": "pass1"
+		}, {
+			"id": "12",
+			"type": "cin",
+			"number": "123"
+		}, {
+			"id": "13",
+			"type": "drive-licence",
+			"number": "drive-123"
+		}
+	]
+} {
+	"source": "AA",
+	"type": "AAA",
+	"name": "AAA",
+	"active": false,
+	"identities": [
+		{
+			"id": "A1",
+			"type": "passport",
+			"number": "pass-A1"
+		}, {
+			"id": "A2",
+			"type": "cin",
+			"number": "cin-A2"
+		}
+	]
+} {
+	"source": "BB",
+	"type": "BBB",
+	"name": "BBB",
+	"active": false,
+	"identities": [
+		{
+			"id": "B1",
+			"type": "passport",
+			"number": "pass-B1"
+		}
+	]
+} {
+	"source": "CC",
+	"type": "CCC",
+	"name": "CCC",
+	"active": false,
+	"identities": [
+		{
+			"id": "C1",
+			"type": "passport",
+			"number": "pass-C1"
+		}
+	]
+}

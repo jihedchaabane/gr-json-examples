@@ -1,0 +1,13 @@
+map(
+	source: source,
+	type: type,
+	name: name,
+	active: active,
+	identities: identities.map(
+		id: id,
+		type: type,
+		number: number
+	),
+	jobId: jobId,
+	chunkId: chunkId
+)

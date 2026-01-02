@@ -1,0 +1,5 @@
+map(
+	id: id,
+	type: type,
+	number: number
+)

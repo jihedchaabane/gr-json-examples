@@ -1,0 +1,57 @@
+{
+	"type": "object",
+	"properties": {
+		"source": {
+			"description": "the source property",
+			"type": "string",
+			"minLength": 2,
+			"maxLength": 10,
+			"enum": ["PRo", "IN", "AA", "BB", "CC"]
+		},
+		"type": {
+			"description": "the type property",
+			"type": "string",
+			"minLength": 3,
+			"maxLength": 10
+		},
+		"name": {
+			"description": "the name property",
+			"type": "string",
+			"minLength": 3,
+			"maxLength": 10
+		},
+		"active": {
+			"description": "the active property",
+			"type": "boolean"
+		},
+		"identities": {
+			"description": "the identities property",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "the id property",
+						"type": "string",
+						"minLength": 2,
+						"maxLength": 10	
+					},
+					"type": {
+						"description": "the type property",
+						"type": "string",
+						"minLength": 3,
+						"maxLength": 15	
+					},
+					"number": {
+						"description": "the number property",
+						"type": "string",
+						"minLength": 3,
+						"maxLength": 15	
+					}
+				},
+				"required": ["id", "type", "number"]
+			}
+		}
+	},
+	"required": ["source", "type", "name", "active", "identities"]
+}

@@ -1,0 +1,20 @@
+[ {
+		"id": "11",
+		"type": "passport",
+		"number": "pass1",
+		"deliveryDate": "01-01-2000",
+		"expirationDate": "31-12-2010"
+	}, {
+		"id": "12",
+		"type": "cin",
+		"number": "cin2",
+		"deliveryDate": "01-01-2001",
+		"expirationDate": "31-12-2050"
+	}, {
+		"id": "13",
+		"type": "driver-licence",
+		"number": "licence-1234",
+		"deliveryDate": "01-01-2005",
+		"expirationDate": "31-12-2015"
+	}
+]

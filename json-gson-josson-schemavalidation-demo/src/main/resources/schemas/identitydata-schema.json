@@ -1,0 +1,24 @@
+{
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "the id property",
+			"type": "string",
+			"minLength": 2,
+			"maxLength": 10	
+		},
+		"type": {
+			"description": "the type property",
+			"type": "string",
+			"minLength": 3,
+			"maxLength": 15	
+		},
+		"number": {
+			"description": "the number property",
+			"type": "string",
+			"minLength": 3,
+			"maxLength": 15	
+		}
+	},
+	"required": ["id", "type", "number"]
+}
